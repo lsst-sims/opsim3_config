@@ -1,13 +1,7 @@
-# Baseline Cadence
+# Tier 1, Run 9
 
-* Science Council approved Deep Drilling fields
-* Wide-Fast-Deep (WFD) design specification for areal coverage (18,000 deg)
-* WFD "boosted visits" = 75, 105, 240, 240, 210, 210 for u, g, r, i, z, y filters 
-  where g, r, i and z visits are collected in pairs separated by 
-  about 30 minutes
-* Revised scheduled downtime and unscheduled downtime
-* minAlt = 20 deg
-* MinDistance2Moon = 30 deg
-
-**Note:** 
-SRD design visits = 56, 80, 184, 184, 160, 160 for u, g, r, i, z, y filters.
+This configuration is a Pan-STARRS like cadence. It contains the Universal (WFD)
+proposal that requires pairs of visits and no other proposals. The area
+coverage is increased to include Dec <+15 deg (~27,400 deg^2) and the default
+airmass limit of 1.5 is kept. It also uses the SRD number of visits for each 
+band.
