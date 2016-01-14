@@ -1,5 +1,5 @@
-# NEO Run 1
+# NEO Run 3
 
-Configuration is the same as baseline cadence except the survey runs for 15
-years and the Universal (WFD) and North Ecliptic Spur proposals have 1.5 times
-and 3.4 times respectively the number of visits in all bands.
+Configuration is the same as NEO Run 2 except there is no North Ecliptic Spur
+proposal. It runs an Ecliptic Band proposal which covers ~+/- 12 degrees around
+the ecliptic and has double visits.
