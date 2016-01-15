@@ -1,5 +1,5 @@
-# NEO Run 2
+# NEO Run 6
 
-Configuration is the same as NEO Run2. In addition, it runs an Ecliptic Band 
-propsal that covers ~+/- 12 degrees around the ecliptic minus overlapping
-North Ecliptic Spur fields and requires double visits. 
+Configuration is the same as NEO Run 4 except Ecliptic Band proposal now covers
+~+/- 15 degrees around the ecliptic and does not include the overlapping
+North Ecliptic Spur proposal fields. 
