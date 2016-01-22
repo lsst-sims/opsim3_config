@@ -12,10 +12,12 @@ The Operations Simulator version 3 configuration <a href="https://github.com/lss
 <table>
   <tr>
     <th>Configuration</th>
+    <th>Branch Name</th>
     <th>Description</th>
   </tr>
   <tr>
     <td>Baseline Cadence</td>
+    <td>master</td>
     <td>
       <ul>
         <li>Science Council approved Deep Drilling fields</li>
@@ -33,120 +35,140 @@ The Operations Simulator version 3 configuration <a href="https://github.com/lss
   </tr>
   <tr>
     <td>Tier 1, Run 1</td>
+    <td>tier1/run01</td>
     <td>
       Configuration is the same as baseline cadence except there is only the Universal (WFD) proposal which collects visits in pairs.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 2</td>
+    <td>tier1/run02</td>
     <td>
       Configuration is the same as baseline cadence except there is only the Universal (WFD) proposal. However, this version does not require pairs of visits.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 3</td>
+    <td>tier1/run03</td>
     <td>
       Configuration is the same as baseline cadence except Universal (WFD) proposal does not require pairs of visits.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 4, 3 visits</td>
+    <td>tier1/run04_3visits</td>
     <td>
       Configuration is the same as baseline cadence except Universal (WFD) requests three visits per field instead of two. The window function between both 1-2 visits and 2-3 visits is the same as baseline.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 4, 4 visits</td>
+    <td>tier1/run04_4visits</td>
     <td>
       Configuration is the same as baseline cadence except Universal (WFD) requests four visits per field instead of two. The window function between 1-2, 2-3 and 3-4 visits is the same as baseline.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 5</td>
+    <td>tier1/run05</td>
     <td>
       Configuration is the same as baseline cadence except u-band exposure time is 60 sec instead of 30 sec. u-band number of visits remains the same as baseline.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 6</td>
+    <td>tier1/run06</td>
     <td>
       Configuration is the same as baseline cadence except u-band exposure time is 60 sec instead of 30 sec. u-band number of visits is halved from baseline.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 7</td>
+    <td>tier1/run07</td>
     <td>
       Configuration is the same as baseline cadence except exposure time in all bands is 20 sec instead of 30 sec. Deep drilling number of visits is based on 30 sec exposure time. Galactic plane and South celestial pole number of visits increased by 50% from baseline.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 8</td>
+    <td>tier1/run08</td>
     <td>
       Configuration is the same as baseline cadence except exposure time in all bands is 60 sec instead of 30 sec.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 9</td>
+    <td>tier1/run09</td>
     <td>
       This configuration is a Pan-STARRS like cadence. It contains the Universal (WFD) proposal that requires pairs of visits and no other proposals. The area coverage is increased to include Dec <+15 deg (~27,400 deg^2) and the default airmass limit of 1.5 is kept. It also uses the SRD number of visits for each band.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 10</td>
+    <td>tier1/run10</td>
     <td>
       Configuration is the same as baseline cadence except that the airmass limit is relaxed to 2.0 instead of 1.5 for the Universal and Deep drilling proposals.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 11</td>
+    <td>tier1/run11</td>
     <td>
       Configuration is the same as baseline cadence except there is only the Universal (WFD) proposal with a relaxed airmass limit of 2.0 instead of 1.5.
     </td>
   </tr>
   <tr>
     <td>Tier 1, Run 12</td>
+    <td>tier1/run12</td>
     <td>
       Configuration is the same as baseline cadence except there is only the Universal (WFD) proposal with a more stringent airmass limit of 1.3 instead of 1.5.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 1</td>
+    <td>neo/run01</td>
     <td>
       Configuration is the same as baseline cadence except the survey runs for 15 years and the Universal (WFD) and North Ecliptic Spur proposals have 1.5 times and 3.4 times respectively the number of visits in all bands.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 2</td>
+    <td>neo/run02</td>
     <td>
       Configuration is the same as NEO Run1 except twice the number of visits in the North Ecliptic Spur proposal.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 3</td>
+    <td>neo/run03</td>
     <td>
       Configuration is the same as NEO Run 2 except there is no North Ecliptic Spur proposal. It runs an Ecliptic Band proposal which covers ~+/- 12 degrees around the ecliptic and has double visits.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 4</td>
+    <td>neo/run04</td>
     <td>
       Configuration is the same as NEO Run 2. In addition, it runs an Ecliptic Band propsal that covers ~+/- 12 degrees around the ecliptic minus overlapping North Ecliptic Spur fields and requires double visits.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 5</td>
+    <td>neo/run05</td>
     <td>
       Configuration is the same as NEO Run 3 except the Ecliptic Band proposal now covers ~+/- 15 degrees around the ecliptic.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 6</td>
+    <td>neo/run06</td>
     <td>
       Configuration is the same as NEO Run 4 except Ecliptic Band proposal now covers ~+/- 15 degrees around the ecliptic and does not include the overlapping North Ecliptic Spur proposal fields.
     </td>
   </tr>
   <tr>
     <td>NEO, Run 7</td>
+    <td>neo/run07</td>
     <td>
       Configuration is the same as NEO Run 6 except Ecliptic Band proposal only observes in r and i bands and the full ~+/- 15 degrees around the ecliptic is used.
     </td>
