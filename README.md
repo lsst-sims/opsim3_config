@@ -6,3 +6,4 @@ The Ecliptic Band proposal covers +/- 12 degrees around the entire ecliptic, wit
 down to the top of the WFD region (where it was above the dec limit of the WFD).
 This proposal requests sequences of visits - 2 back-to-back visits -- to make "equivalent" of 60s
 visits.
+Number of visits requests is equivalent to 2x (due to back-to-back visits) the number of WFD visits.
