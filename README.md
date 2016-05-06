@@ -1,7 +1,12 @@
-# NEO Run 7
+# NEO Run 8
 
-Ecliptic band proposal is +/-15 degrees, around the entire ecliptic and down to the top of the WFD.
-Ecliptic band proposal is in r and i bands only and requests back-to-back visits.
-NES is still active, but only requests g and z observations (to round out colors), and only requests single visits.
-Number of visits for EclipticBand and NES is equivalent to 2x and 1x the WFD visits.
-Discovery 'should' be focused on EclipticBand observations.
+Attempts at very NEO-optimized runs.
+
+Ecliptic band proposal is +/-15 degrees, around the entire ecliptic.
+Ecliptic band proposal requests back-to-back visits for deeper observations.
+
+NES, DD, SCP, GP proposals are dropped.
+WFD is active and extends 'up' to +15 degree region of EB. Single visits, for half-depth of EB.
+ 
+All observations are in gri only. Different commits = different requested visit times and possibly filters.
+
