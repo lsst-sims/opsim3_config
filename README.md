@@ -1,10 +1,9 @@
-# Simple rolling cadence test.
+# Rolling cadence test.
 
-WFD split into N, M, S zones - north, middle, south. Only these proposals included.
+WFD split into N, M, S zones - north, middle, south. All other proposals active too.
 "Rolling" cadence by concentrating on the north, then the middle, then the south.
 No coverage for these zones in 'off' years.
-Overall length of survey reduced to 9 years, to account for the fact that we are not
-including DD, NES, GP, or SCP proposals.
+NES, SCP, GP, DD proposals (5 fields) too.
 
 * Revised scheduled downtime and unscheduled downtime
 * minAlt = 20 deg
